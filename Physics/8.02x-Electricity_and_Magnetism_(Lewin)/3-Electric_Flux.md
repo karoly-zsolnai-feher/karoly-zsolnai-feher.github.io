@@ -12,7 +12,7 @@ where $\theta$ is the angle between $\vec{E}$ and $\hat{n}$. **Note:** the norma
 
 This is a scalar. Note that $\vec{dA}$ is perpendicular to the element $dA$ as the normal is “baked” into it. The flux through the entirety of the surface is going to be an integral of this. This unit of flux follows from the definition and is $[\frac{N}{C}\,m^2$].
 
-One can think of it as air flowing through a surface defined through its normal. If it lines up with the surface, $\cos0\degree=1$, if it is perpendicular, nothing goes through, i.e., $\cos90\degree=0$, and every case is possible in between.
+One can think of it as air flowing through a surface defined through its normal. If it lines up with the surface, $\cos0^\circ=1$, if it is perpendicular, nothing goes through, i.e., $\cos90^\circ=0$, and every case is possible in between.
 
 <img src="airflow.png" width="500" align="middle" style="display:block; margin: auto"> 
 

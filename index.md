@@ -5,10 +5,10 @@
 [Divergence](VectorAnalysis/Divergence.md)
   
 ## Physics
-**8.02x** \
-[Lecture 1 - Electricity](Physics/8.02x-Electricity_and_Magnetism_(Lewin)/1-Electricity)\
-[Lecture 2 - Electric Field Lines](Physics/8.02x-Electricity_and_Magnetism_(Lewin)/2-Electric_Field_Lines)\
-[Lecture 3 - Electric Flux, Gauss's Law](Physics/8.02x-Electricity_and_Magnetism_(Lewin)/3-Electric_Flux)\
+**8.02x**  
+[Lecture 1 - Electricity](Physics/8.02x-Electricity_and_Magnetism_(Lewin)/1-Electricity)  
+[Lecture 2 - Electric Field Lines](Physics/8.02x-Electricity_and_Magnetism_(Lewin)/2-Electric_Field_Lines)  
+[Lecture 3 - Electric Flux, Gauss's Law](Physics/8.02x-Electricity_and_Magnetism_(Lewin)/3-Electric_Flux) 
 
 
 ## Math test

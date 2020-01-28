@@ -6,10 +6,15 @@
 
 ### Definition
 Divergence measures *change*, and therefore we expect that it has to use derivatives. Also, a sink is a sink - it does not matter which direction this change happens, therefore, these derivatives have to be added together. Consider the input vector field $F$ as
+
 $$\mathbf{F}=\big(Fx,Fy,Fz\big),$$
+
 then its divergence is defined as
+
 $$\nabla \cdot \mathbf{F}(x)=\Big( \frac{\partial}{\partial x},\, \frac{\partial}{\partial y},\, \frac{\partial}{\partial z}\Big) \cdot \mathbf{F}(x),$$
+
 or perhaps more conveniently,
+
 $$\nabla \cdot \mathbf{F}(x)=\frac{\partial Fx}{\partial x} + \frac{\partial Fy}{\partial y} + \frac{\partial Fz}{\partial z}.$$
 
 ### Applications
