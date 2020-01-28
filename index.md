@@ -1,6 +1,11 @@
 ---
 ---
 
+Physics \
+[8.02x](Physics/8.02x-Electricity_and_Magnetism_(Lewin)/)\
+[8.02x](Physics/8.02x-Electricity_and_Magnetism_(Lewin)/1-Electricity)\
+
+
 ## Math test
 $$
 M = \left( \begin{array}{ccc}
