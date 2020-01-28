@@ -26,7 +26,7 @@ $$\Phi = \oint_S \vec{E} \cdot \vec{dA}.$$
 
 This is a summation over a collection of dot products, therefore the output is a *scalar*. It is zero if the same amount flows in as what flows out, and can be less or more than zero depending on the imbalance of in and outflows.
 
-**Note:** We have a unique definition for normals for closed surfaces.
+    Note: We have a unique definition for normals for closed surfaces.
 
 Let’s take a charge $+Q$ and calculate the flux going through a sphere of radius $R$ around it, where $\hat{r}$ points from the midpoint towards $\vec{dA}$.
 
@@ -68,7 +68,9 @@ We can lean on the fact that $\vec{E}$ and $\vec{dA}$ are parallel everywhere on
 
 $$E\,4\pi r^2=\frac{Q_{\text{ins}}}{\epsilon_0},$$
 
-And since there are no charges inside the Gaussian surface, $Q_{\text{ins}}$ is $0$, the right side is $0$, therefore $E$ must also be 0. This is the case, provided that $r < R$. *To reiterate, the magnitude of the electric field inside a conducting sphere is zero.*
+And since there are no charges inside the Gaussian surface, $Q_{\text{ins}}$ is $0$, the right side is $0$, therefore $E$ must also be 0. This is the case, provided that $r < R$. 
+
+    To reiterate, the magnitude of the electric field inside a conducting sphere is zero.
 
 In the case where $r > R$, we get
 

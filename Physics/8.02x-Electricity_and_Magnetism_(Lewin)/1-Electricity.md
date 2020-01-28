@@ -13,7 +13,7 @@ Polarization happens, i.e., the charges move apart in different directions. This
 
 <img src="induction.png" width="350" align="middle" style="display:block; margin: auto"> 
 
-### Rubbing things against each other
+### Induction via rubbing
 When rubbing a rubber balloon against our shirt, friction cases electricity, so it may stick to our hand afterward. Since rubber is not a conductor, and neither is our hand, induction happens and they will stick together. Small balloons are easier. 
 
 You may hear a cracking noise when combing your hair in a dry weather because the comb gets charged.
@@ -34,7 +34,7 @@ The first variable, $k=9\cdot 10^9=\frac{1}{4\pi\epsilon_0}$, is Coulomb’s con
 
 We usually work with micro-Coulombs, or even less than that. The charge of one proton (or electron), i.e., $q_{p^+}=q_{e^-} \approx 1.6\cdot10^{-19}C$.
 
-Electric forces are much more powerful than gravitational forces. Calculating these forces acting between two protons, $\frac{F_{el}}{F_{gr}}=10^{36}$, which means 36 orders of magnitude smaller. That is an incredibly large force pushing them apart. So what holds the nucleus together? Nuclear forces, which have to be even greater.
+Electric forces are *much more* powerful than gravitational forces. Calculating these forces acting between two protons, $\frac{F_{el}}{F_{gr}}=10^{36}$, which means 36 orders of magnitude smaller. That is an incredibly large force pushing them apart. So what holds the nucleus together? Nuclear forces, which have to be even greater.
 
 ## Electroscope
 It is an instrument that typically contains an aluminum foil and is therefore a conductor, i.e., if you touch it with a charged object, it gets positively charged. As this happens, these aluminum tinsels (tails) will all be positive, and “open up” as they start repelling each other. Humans are not good conductors, but you can also become a living electroscope by touching something positively charged, and having an electroscope in the other hand - it will open up. Your hair is also an electroscope and will stand up.
