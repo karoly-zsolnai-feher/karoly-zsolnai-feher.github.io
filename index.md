@@ -12,4 +12,4 @@ These are my some of mathematical notes. Normally, I would keep these to myself,
 
 ## Research
 In case you are interested in my research works, you can access them
-[**here**](https://users.cg.tuwien.ac.at/zsolnai/).
+[**here**](https://users.cg.tuwien.ac.at/zsolnai/) or you can watch [**Two Minute Papers**](https://www.youtube.com/user/keeroyz) on YouTube.
