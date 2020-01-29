@@ -40,7 +40,7 @@ Note that in the case of curved field lines, the charges are not obligated to fo
 
 <img src="field_lines2.png" width="250" align="middle" style="display:block; margin: auto"> 
 
-## Dipole
+## The Dipole
 A dipole is created when we have two charges with equal magnitude but opposite polarity (one + and one -).
 
 <img src="dipole.png" width="400" align="middle" style="display:block; margin: auto"> 
