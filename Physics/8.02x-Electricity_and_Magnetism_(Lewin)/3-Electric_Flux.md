@@ -80,6 +80,37 @@ E= \frac{Q}{4\pi r^2 \epsilon_0}.$$
 If we plot the results, we get the following:
 <img src="sphere_field_plot.png" width="400" align="middle" style="display:block; margin: auto"> 
 
-Note that not only electric, but gravitational forces also fall off proportionally to $1/r^2$, therefore if you would take a hollow, spherical planet, there would be no gravitational field inside.
+Note that not only electric, but gravitational forces also fall off proportionally to $1/r^2$, therefore if you would take a hollow, spherical planet with uniform weight distribution, there would be no gravitational field inside. This took Newton 20 years to find out, now you can do it in 30 seconds with Gauss's Law.
 
 This was the first form of symmetry. Now to discuss planar symmetry.
+
+## Electric field around a uniformly charged plane
+
+Think of an infinitely large plane with the same amount of charge everyewhere, $\sigma=Q/A$, with the unit $[C/m^2]$. The question is, what is the electric field ${E}$ anywhere in space? If we pick the Gauss surface correctly, the answer will come immediately, but if we pick a sphere or something lousy, we'll get nowhere. Let's choose a cylindrical surface with a flat plane top and bottom that are parallel to our surface a distance of $d$ above and below the plane.
+
+<img src="planar_symmetry.png" width="450" align="middle" style="display:block; margin: auto"> 
+
+Interestingly, the electric field of the plane is perpendicular to the surface, therefore because of the scalar product, only the two ends of the Gaussian surface contribute to the electric flux,
+
+$$2EA =\frac{\sigma A}{\epsilon_0} \implies E = \frac{\sigma}{2 \epsilon_0}.$$
+
+Note that due to the scalar product cancellation, the distance $d$ does not appear anywhere in here, thus, this is independent of the distance. I could go miles away from this, and it still has the same electric field. However, to curb our enthusiasm, this is about an *infinitely* extending plane, which, of course, does not exist. Therefore, this would not hold for a finite plane, where it would fall of proportionally to $1/r^2$. Since we've only given the magnitude of the electric field, the directions depend on whether it's positively or negatively charged.
+
+<img src="plane_electric_field_directions.png" width="300" align="middle" style="display:block; margin: auto">
+
+Now let's play with a couple of charged plates of opposite polarities.
+
+## Electric field around charged plates
+
+Suppose we have the setup below.
+<img src="charged_plates.png" width="500" align="middle" style="display:block; margin: auto">
+
+What would be the electric field above, between, and below them? We can start reusing the previous result, write up the electric fields around the plates one by one, and lean on the fact that we've found the $E$ is independent of the distance. Then, we can use the superposition principle and find that above them, the directions are opposing and cancel each other out. Between the plates, the electric flux is magnified (summed), while below, due to symmetry, we have another cancellation, as seen below.
+
+<img src="charged_plates2.png" width="500" align="middle" style="display:block; margin: auto">
+
+The field lines would point from the positively charged plate to the negatively charged one. This is a very potent eletric field between the two plates, as shown with the density of the field lines in the drawing below for the finite case.
+
+<img src="charged_plates_field_lines.png" width="500" align="middle" style="display:block; margin: auto">
+
+You can see that this must be the finite case because the electric field above and below the two plates is not zero. This was supposedly drawn by Maxwell. I was unable to find the original publication, but if you have time to look through [this](http://strangebeautiful.com/other-texts/maxwell-scientificpapers-vol-i-dover.pdf) and [this](https://archive.org/details/scientificpapers01maxw/page/172/mode/2up) tome and managed to find it, let me know.
