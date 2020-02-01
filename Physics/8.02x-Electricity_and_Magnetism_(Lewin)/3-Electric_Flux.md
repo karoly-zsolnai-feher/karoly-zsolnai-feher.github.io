@@ -95,6 +95,7 @@ Think of an infinitely large plane with the same amount of charge everyewhere, $
 Interestingly, the electric field of the plane is perpendicular to the surface, therefore because of the scalar product, only the two ends of the Gaussian surface contribute to the electric flux,
 
 $$2EA =\frac{\sigma A}{\epsilon_0} \implies E = \frac{\sigma}{2 \epsilon_0}.$$
+
 <sup>**Note:** Perhaps this could be derived in a way that is a little more verbose.</sup>
 
 Note that due to the scalar product cancellation, the distance $d$ does not appear anywhere in here, thus, this is independent of the distance. It is constant as well - we could go miles away from this, and it still has the same electric field. No $1/r^2$ decay in sight!However, to curb our enthusiasm, this is about an *infinitely* extending plane, which, of course, does not exist. Therefore, this would not hold for a small, finite plane, where it would fall of proportionally to $1/r^2$. Since we've only given the magnitude of the electric field, the directions depend on whether it's positively or negatively charged.
