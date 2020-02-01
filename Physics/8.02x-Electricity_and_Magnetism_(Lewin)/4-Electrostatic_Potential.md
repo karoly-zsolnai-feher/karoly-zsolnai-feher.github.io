@@ -8,7 +8,7 @@ How much work do we have to do to accomplish this? Time to whip out the integral
 
 $$W_{WL}= \int_{\infty}^{R} \vec{F}_{WL} \, \vec{dr}=\int_{R}^{\infty} \vec{F}_{el} \, \vec{dr}$$
 
-Note that $\vec{dr}$ is an infinitesimally small displacement - a tiny step that we think of as a vector, and the term within the integral on both sides is a dot product, i.e., $\vec{F} \vec{dr} = ||\vec{F}|| \,||\vec{dr}|| \, \cos\theta$.
+Note that $\vec{dr}$ is an infinitesimally small displacement - a tiny step that we think of as a vector, and the term within the integral on both sides is a dot product, i.e., $\vec{F} \vec{dr} = || \vec{F} || \, || \vec{dr} || \, \cos \theta$.
 
 The two forces have to be in equilibrium (i.e., the same), but in opposite directions. Hence the integration domains have been flipped. 
 
