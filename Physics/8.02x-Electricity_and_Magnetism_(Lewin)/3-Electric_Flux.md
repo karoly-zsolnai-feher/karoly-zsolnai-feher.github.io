@@ -1,4 +1,4 @@
-# Electric Flux
+# Electric Flux, Gauss's Law
 
 An open surface, e.g., a sheet of paper or a tissue is placed in an electric field. This surface is carved up into small pieces of size $dA$, each of which has a normal $\hat{n}$.
 
@@ -8,7 +8,9 @@ The electric flux that goes through this surface is given as
 
 $$d\Phi = \vec{E}\cdot \hat{n}dA = \vec{E}\cdot \vec{dA} =  E \, dA \cos \theta,$$ 
 
-where $\theta$ is the angle between $\vec{E}$ and $\hat{n}$. **Note:** the normal is ill-defined for surfaces like this, and we have arbitrarily chosen the normal to point “outwards”.
+where $\theta$ is the angle between $\vec{E}$ and $\hat{n}$. 
+
+<sup>**Note:** the normal is ill-defined for surfaces like this, and we have arbitrarily chosen the normal to point “outwards”.</sup>
 
 This is a scalar. Note that $\vec{dA}$ is perpendicular to the element $dA$ as the normal is “baked” into it. The flux through the entirety of the surface is going to be an integral of this. This unit of flux follows from the definition and is $[\frac{N}{C}\,m^2$].
 
@@ -93,8 +95,9 @@ Think of an infinitely large plane with the same amount of charge everyewhere, $
 Interestingly, the electric field of the plane is perpendicular to the surface, therefore because of the scalar product, only the two ends of the Gaussian surface contribute to the electric flux,
 
 $$2EA =\frac{\sigma A}{\epsilon_0} \implies E = \frac{\sigma}{2 \epsilon_0}.$$
+<sup>**Note:** Perhaps this could be derived in a way that is a little more verbose.</sup>
 
-Note that due to the scalar product cancellation, the distance $d$ does not appear anywhere in here, thus, this is independent of the distance. I could go miles away from this, and it still has the same electric field. However, to curb our enthusiasm, this is about an *infinitely* extending plane, which, of course, does not exist. Therefore, this would not hold for a finite plane, where it would fall of proportionally to $1/r^2$. Since we've only given the magnitude of the electric field, the directions depend on whether it's positively or negatively charged.
+Note that due to the scalar product cancellation, the distance $d$ does not appear anywhere in here, thus, this is independent of the distance. It is constant as well - we could go miles away from this, and it still has the same electric field. No $1/r^2$ decay in sight!However, to curb our enthusiasm, this is about an *infinitely* extending plane, which, of course, does not exist. Therefore, this would not hold for a small, finite plane, where it would fall of proportionally to $1/r^2$. Since we've only given the magnitude of the electric field, the directions depend on whether it's positively or negatively charged.
 
 <img src="plane_electric_field_directions.png" width="300" align="middle" style="display:block; margin: auto">
 
@@ -114,3 +117,15 @@ The field lines would point from the positively charged plate to the negatively 
 <img src="charged_plates_field_lines.png" width="500" align="middle" style="display:block; margin: auto">
 
 You can see that this must be the finite case because the electric field above and below the two plates is not zero. This was supposedly drawn by Maxwell. I was unable to find the original publication, but if you have time to look through [this](http://strangebeautiful.com/other-texts/maxwell-scientificpapers-vol-i-dover.pdf) and [this](https://archive.org/details/scientificpapers01maxw/page/172/mode/2up) tome and managed to find it, let me know.
+
+Experiment time! Since the electric field around a big charged plate is nearly constant (and if we are close by, even a few square meters big plane approximates infinity well), there will be a constant force pushing outwards and the charged balloon is barely going to move.
+
+<img src="plane_electric_field_experiment.png" width="500" align="middle" style="display:block; margin: auto">
+
+We can also test the electric field inside and outside of the conducting sphere. This particular one has a hole for practical purposes, i.e., we want to place our conductors inside. If we charge the big sphere, induction will take place if the ping-pong balls are outside - to be precise, a dipole will form and they get separated. When inside, unless we touch the rim, there is no electric field, so the ping-pong balls don't get charged. No movement. To be sure, of course, we can measure this with an electroscope. There will be a tiny bit of charge, because of the hole, we only have an approximation of a perfect sphere model.
+
+<img src="sphere_electric_field_experiment.png" width="450" align="middle" style="display:block; margin: auto">
+
+Finally, when we put the conductor ball in a strong electric field, for instance, between two charged plates, it will start to move. Each time it hits a plate, it changes polarity, and it therefore will ping-pong between them rapidly (nomen est omen). Much faster as if we did the same on the outside of the plates, where the electric field is weaker.
+
+<img src="plates_electric_field_experiment.png" width="400" align="middle" style="display:block; margin: auto">
