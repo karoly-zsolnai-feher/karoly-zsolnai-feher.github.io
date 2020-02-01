@@ -1,18 +1,18 @@
 # Electrostatic Potential, Electric Energy, Equipotential Surfaces
 
-Consider two positive charges $q_1,q_2$. Let's place $q_1$ somewhere in space, and start coming towards it from very far away (we'll use $\infty$ in the example) with $q_2$ in our hand. We will have to do some work $F_{WL}$ pushing, since $q_1$ will want to repel it with force $F_{el}$. The target distance is between the charges is $R$, while we are $r$ away. 
+Consider two positive charges $q_1,q_2$. Let's place $q_1$ somewhere in space, and start coming towards it from very far away (we'll use $\infty$ in the example) with $q_2$ in our hand. We will have to do some work $F_{WL}$ pushing, since $q_1$ will want to repel it with force $F_{e}$. The target distance is between the charges is $R$, while we are $r$ away. 
 
 How much work do we have to do to accomplish this? Time to whip out the integrals.
 
 <img src="4-Electrostatic_Potential/work_against_electric_field.png" width="450" align="middle" style="display:block; margin: auto">
 
-$$W_{WL}= \int_{\infty}^{R} \vec{F}_{WL} \, \vec{dr}=\int_{R}^{\infty} \vec{F}_{el} \, \vec{dr}$$
+$$W_{WL}= \int_{\infty}^{R} \vec{F}_{WL} \, \vec{dr}=\int_{R}^{\infty} \vec{F}_{e} \, \vec{dr}$$
 
 Note that $\vec{dr}$ is an infinitesimally small displacement - a tiny step that we think of as a vector, and the term within the integral on both sides is a dot product, i.e., $\vec{F} \vec{dr} = \lVert \vec{F} \lVert \, \lVert \vec{dr} \lVert \, \cos \theta$.
 
-The two forces have to be in equilibrium (i.e., the same), but in opposite directions. Hence the integration domains have been flipped. 
+The two forces have to be in equilibrium (i.e., the same), but in opposite directions. Hence the integration domains have been flipped. This is useful, because we can evaluate the right side with relative ease.
 
-Let's start evaluating this. On the right side, the electric force $\vec{F}_{el}$ can be computed via Coulomb's Law, and it will be in the same direction as $\vec{dr}$, which means that $\cos\theta=1$, we can forget about the vectors there, and we can move $\vec{F}_{el}$ out of the integral,
+Let's start evaluating this. On the right side, the electric force $\vec{F}_e$ can be computed via Coulomb's Law, and it will point in the same direction as $\vec{dr}$, which means that $\cos\theta=1$, we can forget about the vectors there, and we can move $\vec{F}_e$ out of the integral,
 
 $$U=\int_{R}^{\infty} \vec{F}_{el} \, \vec{dr} = \frac{q_1 q_2}{4\pi \epsilon_0} \int_{R}^{\infty}\frac{1}{r^2}dr=\frac{q_1 q_2}{4\pi \epsilon_0} \, \frac{1}{r}\Big\rvert_{R}^{\infty},$$
 
