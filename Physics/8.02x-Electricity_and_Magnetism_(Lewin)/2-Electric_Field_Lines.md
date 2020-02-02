@@ -55,6 +55,6 @@ If we leave a dipole alone in an electric field, the positive charge will want t
 
 <img src="rotate.png" width="350" align="middle" style="display:block; margin: auto"> 
 
-When turning on the Van de Graaff generator (the big, conducting lollipop), it generates positive charges. Through induction, the electrons are sucked out of the Earth, and want to travel to the positive charges…through us, therefore we get negatively charged. When putting a balloon (the white dot above) made out of a conductor in this force field, it will travel towards us. When it hits our head, it gets negatively charged, and the force will be tangential to the electric field and point backwards to the generator. This goes on and on and the balloon starts bouncing forward and back.
+When turning on the **Van de Graaff generator** (the big, conducting lollipop), it generates positive charges. Through induction, the electrons are sucked out of the Earth, and want to travel to the positive charges…through us, therefore we get negatively charged. When putting a balloon (the white dot above) made out of a conductor in this force field, it will travel towards us. When it hits our head, it gets negatively charged, and the force will be tangential to the electric field and point backwards to the generator. This goes on and on and the balloon starts bouncing forward and back.
 
 <img src="bouncy_experiment.png" width="350" align="middle" style="display:block; margin: auto"> 
