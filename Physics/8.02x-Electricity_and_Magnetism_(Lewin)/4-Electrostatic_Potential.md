@@ -18,7 +18,7 @@ But wait a second, what really happened here?
 
 ## The Magic Switcheroo
 
-This is an additional note I added here, because I think the integration boundary flipping above is a little more involved than it might seem at first. At first sight, switching from $\int_{\infty}^R$ to $\int_R^{\infty}$ sounds fine. After all, we just walk along the function and add together things, does it really matter in what order we do it? *Yes it does!* Let me explain. If we would be doing a normal addition, no, it wouldn't matter, however, integration gives us the **signed area** under the function, which is different when walking from left to right, or right to left. Not intuitive? This is a great lesson - sometimes, intuition only takes us so far, and we have to derive and prove our statements properly to really understand what is going on.
+This is an additional note I added here, because I think the integration boundary flipping above is a little more involved than it might seem at first. At first sight, switching from $\int_{\infty}^R$ to $\int_R^{\infty}$ sounds fine. After all, we just walk along the function and add together things, does it really matter in what order we do it? *Yes it does!* Let me explain. If we would be doing a normal addition, no, it wouldn't matter, however, a Riemann integral gives us the **signed area** under the function, which is different when walking from left to right, or right to left. Not intuitive? This is a great lesson - sometimes, intuition only takes us so far, and we have to derive and prove our statements properly to really understand what is going on.
 
 In this case, we have two beautiful ways of doing this.
 
@@ -28,7 +28,7 @@ Consider the [fundamental theorem of calculus](https://en.wikipedia.org/wiki/Fun
 
 $$\int_a^b f(x) \, dx = F(b) - F(a).$$
 
-Now let's switch the integration domains to go from $b$ to $a$. We get
+So, $F$(upper bound) minus $F$(lower bound). Now let's switch the integration domains to go from $b$ to $a$. We get
 
 $$F(b) - F(a)=-(F(a) - F(b))=-\int_b^a f(x) \, dx,$$
 
@@ -36,7 +36,7 @@ therefore we can perform this switcheroo, provided that we multiply the integral
 
 $$\int_a^b f(x) \, dx = -\int_b^a f(x) \, dx.$$
 
-Thank you for [this source](https://math.stackexchange.com/questions/1316529/why-does-an-integral-change-signs-when-flipping-the-boundaries). It can also be explained in a different way, which is quite cool.
+Thank you for [this source](https://math.stackexchange.com/questions/1316529/why-does-an-integral-change-signs-when-flipping-the-boundaries) for the explanation. It can also be explained in a different way, which is quite cool.
 
 ### Explanation two
 A fundamental property of integrals if we have $a \leq b \leq c$, then we can break up the integration bounds as
@@ -104,6 +104,29 @@ $$W_{WL}=q\,V_p.$$
 
 Note that **potential is work per unit charge**, where if I put the amount of charge I need to carry back into the equation, I get **work**. Approaching this Van de Graaff generator will be a lot of work - the same amount as climbing the Empire State Building. Better start working out!
 
-As we approach the sphere, inside, due to the lack of the electric field, it will suddenly become much easier to carry this charge forward.
+As we approach the sphere, inside, due to the lack of the electric field that pushes us away, it will suddenly become much easier to carry this charge forward.
 
 <img src="4-Electrostatic_Potential/van_de_graaff_potential.png" width="400" align="middle" style="display:block; margin: auto">
+
+## Equipotential surfaces
+
+We can create the potential field around multiple charges by using superposition, or in other words, computing the individual potential fields and adding them together.
+And now, with green, you see below the field lines around two positive charges - they look outwards as there is plenty of repelling going on. The red lines denote the equipotential surface that emerges from this field.
+
+<img src="4-Electrostatic_Potential/equipotential_example.png" width="400" align="middle" style="display:block; margin: auto">
+
+Note that if we are very far away from these charges, the equipotential surface is going to resemble a sphere as when $r \to \infty$, the electric field is going to be similar to a net $+5$ charge's field. You can see this above as well - as we go farther away from the charges, the equipotential surfaces become more spherical (also the same when we are very close by to the charges). There is also a point between the two charges where the electric field is zero. This, of course, does not mean that the potential is zero there, we have to do work to get to that point - however, when we do, we can rest in that point.
+
+<sup>**Note:** The field lines and equipotential surfaces are perpendicular to each other.</sup>
+
+Now, let's do the same around a $+4$ and $-1$ charge. The green lines show that the positive charge behaves like a hairdryer, while the negative charge is a vacuum cleaner. The equipotential surfaces, again look spherical close by around the $+4$ and very far away too.
+
+<img src="4-Electrostatic_Potential/equipotential_example2.png" width="400" align="middle" style="display:block; margin: auto">
+
+But we have some blue lines too there. What is going on? Well, we have a negative charge, which sucks our test charge in without us having to do any work, therefore, we have a negative equipotential surface around it! Also, there is a red sphere above it (I keep using the word sphere because these are 2D slices of the 3D world), therefore, somewhere between the blue and the red spheres, there has to be a surface of zero potential too! Note that this absolutely does not mean that the electric field would be zero there. The potential part means that when we come from $\infty$ with a test charge in our pocket, we'll do some amount of positive work, then some negative work, and the sum of the two will be zero at some points.
+
+There is, also a point in space highlighted with $E=0$ where the magnitude of the electric field is zero, but of course, it is between two red spheres, so the potential is positive there - we can't get there "for free", if by free we mean segments of positive and negative work summed up to zero.
+
+<sup>**Note:** Equipotential surfaces never intersect each other. This would be a violation of energy conservation.</sup>
+
+So why do we need all this equipotential stuff? We can compute all this if we know $\vec{E}$ well enough everywhere. Yes, however, there are cases where $\vec{E}$ is prohibitively complicated, and working with equipotential surfaces can get much easier than that.
