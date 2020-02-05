@@ -54,13 +54,13 @@ $$\int_a^b f(x) \, dx = -\int_b^a f(x) \, dx.$$
 Very elegant and absolutely beautiful. Again, thank you for [this source](https://math.stackexchange.com/questions/1316529/why-does-an-integral-change-signs-when-flipping-the-boundaries) for the explanation.
 
 # Back to the example of electrostatic potential
-
 But we are still not done yet. There is no sign change between the two integrals we wrote, i.e.,
+
 <img src="4-Electrostatic_Potential/work_against_electric_field.png" width="450" align="middle" style="display:block; margin: auto">
 
 $$\int_{\infty}^{R} \vec{F}_{WL} \, \vec{dr}=\int_{R}^{\infty} \vec{F}_{e} \, \vec{dr}.$$
 
-Where did the minus sign go? If you look at the image above, you'll see that $F_{WL}$ and $F_{e}$ look in the opposite direction, therefore the $-1$ multiplier is "baked in". So this is the story of the Magic Switcheroo. **All hail the Magic Switcheroo!** This was not trivial for me, at least not for the first sight, and hence I put here this explanation. If it was trivial for you, please stop reading this - go and build a time machine or something.
+Where did the minus sign go? If you look at the image above, you'll see that $F_{WL}$ and $F_{e}$ look in the opposite direction, therefore the $-1$ multiplier is "baked into" that relationship. So this is the story of the Magic Switcheroo. **All hail the Magic Switcheroo!** This was not trivial for me, at least not for the first sight, and hence I put here this explanation. If it was trivial for you, please stop reading this - go and build a time machine or something.
 
 Now let's start evaluating this. On the right side, the electric force $\vec{F}_e$ can be computed via Coulomb's Law, and it will point in the same direction as $\vec{dr}$, which means that $\cos\theta=1$, we can forget about the vectors there, and we can move $\vec{F}_e$ out of the integral, thus, the electrostatic potential energy $U$ will be
 
@@ -128,5 +128,35 @@ But we have some blue lines too there. What is going on? Well, we have a negativ
 There is, also a point in space highlighted with $E=0$ where the magnitude of the electric field is zero, but of course, it is between two red spheres, so the potential is positive there - we can't get there "for free", if by free we mean segments of positive and negative work summed up to zero.
 
 <sup>**Note:** Equipotential surfaces never intersect each other. This would be a violation of energy conservation.</sup>
+<sup>**Note:** Do not confuse the electrostatic potential energy $U$ with the electric potential $V$. The first is measured in $J$, the second is $J/C$.</sup>
 
 So why do we need all this equipotential stuff? We can compute all this if we know $\vec{E}$ well enough everywhere. Yes, however, there are cases where $\vec{E}$ is prohibitively complicated, and working with equipotential surfaces can get much easier than that.
+
+In an electric field, positive charges will move from a higher potential to a lower potential. As a key difference from gravity, negative charges also exist that travel in the other direction.
+
+Now, we noted earlier that that if we have a point $A$ and $B$ a distance of $R$ apart, their appropriate potentials are defined as
+
+<img src="4-Electrostatic_Potential/potential_difference.png" width="400" align="middle" style="display:block; margin: auto">
+
+$$V_A=\int_{A}^{\infty}\vec{E} \cdot \vec{dr}, \\
+V_B=\int_{B}^{\infty}\vec{E} \cdot \vec{dr}.$$
+
+And thus, when we compute the difference in their potential, we cancel out the "to infinity" part, and what remains will be as follows,
+
+$$V_A-V_B=\int_{A}^{B}\vec{E} \cdot \vec{dr}, \\
+V_B-V_A=-\int_{A}^{B}\vec{E} \cdot \vec{dr}.$$
+
+<img src="4-Electrostatic_Potential/potential_difference2.png" width="400" align="middle" style="display:block; margin: auto">
+
+Note that to get the notation that is traditionally used everywhere, we have to introduce $\vec{dl}$. While $\vec{dr}$ was our vector pointing from $A$ to $B$, $\vec{dl}$ will be an infinitely small distance (with direction) along an arbitrary path between $A$ and $B$. Writing the same equations with $\vec{dl}$ is the same only because electric fields are conservative fields, which does not mean that they vote for populists, but that the work being done is independent from the trajectory between the two points. In the interest of brevity, I will not rewrite the previous equations here again, but do not get confused if we use $\vec{dl}$ as the integration variable later.
+
+Let's assign $V_A=150V$ and $V_B=50V$, then, if Walter Lewin goes from infinity to $A$ or $B$ with $+q$ charge in his pocket, how much work does he have to do? Note that again, **potential is work per unit charge**, therefore, to get the work back, we have to multiply with $q$,
+
+$$W_{WLA}=q V_B=150q, \\
+W_{WLB}=q V_A=50q.$$
+
+If he wishes to go to $A$, he has to do a lot more work than he did walking towards $B$, because the charge wants to go from the higher to lower potential, and we have to work against that. Now, if we leave the charge alone in $A$, it will travel to $B$ by itself. How much energy is released during this journey? A change in potential energy will be
+
+$$q(V_A-V_B)=K_B-K_A$$
+
+The right side shows the kinetic energies in these points and the equality comes from the Work-Energy Theorem, i.e., the work done by the net force on the particle (left side) equals the change in the particle's kinetic energy. In other words, the difference in potentials will lead to the same difference in kinetic energy. This is a nice and clear relation that explains what the electric potential means in terms of movement.
