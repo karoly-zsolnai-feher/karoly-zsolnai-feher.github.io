@@ -8,7 +8,7 @@ How much work do we have to do to accomplish this? Time to whip out the integral
 
 <img src="4-Electrostatic_Potential/work_against_electric_field.png" width="450" align="middle" style="display:block; margin: auto">
 
-$$W_{WL}= \int_{\infty}^{R} \vec{F}_{WL} \, \vec{dr}=\int_{R}^{\infty} \vec{F}_{e} \, \vec{dr}.$$
+$$W_{WL}= \int_{\infty}^{R} \vec{F}_{WL} \cdot \vec{dr}=\int_{R}^{\infty} \vec{F}_{e} \cdot \vec{dr}.$$
 
 Note that $\vec{dr}$ is an infinitesimally small displacement - a tiny step that we think of as a vector, and the term within the integral on both sides is a dot product, i.e., $\vec{F} \vec{dr} = \lVert \vec{F} \rVert \, \lVert \vec{dr} \rVert  \cos \theta$.
 
@@ -58,7 +58,7 @@ But we are still not done yet. There is no sign change between the two integrals
 
 <img src="4-Electrostatic_Potential/work_against_electric_field.png" width="450" align="middle" style="display:block; margin: auto">
 
-$$\int_{\infty}^{R} \vec{F}_{WL} \, \vec{dr}=\int_{R}^{\infty} \vec{F}_{e} \, \vec{dr}.$$
+$$\int_{\infty}^{R} \vec{F}_{WL} \cdot \vec{dr}=\int_{R}^{\infty} \vec{F}_{e} \cdot \vec{dr}.$$
 
 Where did the minus sign go? If you look at the image above, you'll see that $F_{WL}$ and $F_{e}$ look in the opposite direction, therefore the $-1$ multiplier is "baked into" that relationship. So this is the story of the Magic Switcheroo. **All hail the Magic Switcheroo!** This was not trivial for me, at least not for the first sight, and hence I put here this explanation. If it was trivial for you, please stop reading this - go and build a time machine or something.
 
@@ -76,6 +76,8 @@ If $q_1,q_2$ are of the same sign, this is going to be a lot of work because we 
 
 # Electric potential
 
+Why do we need this? Soon, you will see that electric potentials can easily tell us **how things should move** in an electric field.
+
 For the configuration below, we have a charge of $+Q$, and a test charge of $+q$ in point $p$ just $R$ distance away.
 
 <img src="4-Electrostatic_Potential/electrostatic_potential_general.png" width="400" align="middle" style="display:block; margin: auto">
@@ -86,9 +88,9 @@ $$U = \frac{q\, Q}{4\pi \epsilon_0 R}.$$
 
 This is the work I have to do to bring the charge $+q$ to point $p$. The **electric potential** is the work *per unit charge* that I have to do to go from $\infty \rightarrow p$. This will be 
 
-$$V_p = \frac{Q}{4\pi \epsilon_0 R}.$$
+$$V_p = \frac{Q}{4\pi \epsilon_0 R},$$
 
-And is also a scalar and has a unit of $J/C$, or $V$, in short (yes, this is Volt). This makes sense, as the further away $p$ is, the bigger $R$ is, the less work we have to do. Of course, the higher $Q$ is, the more work we have to do. Both are nice and linear, hooray! 
+which is also a scalar and has a unit of $J/C$, or $V$, in short (yes, this is Volt). This makes sense, as the further away $p$ is, the bigger $R$ is, the less work we have to do. Of course, the higher $Q$ is, the more work we have to do. Both are nice and linear, hooray! 
 
 <sup>**Note:** that this potential can be negative, of course, when we have a negative $Q$.</sup>
 
@@ -96,7 +98,7 @@ Now, we would like to know the electric potential around a Van de Graaff generat
 
 <img src="4-Electrostatic_Potential/electric_potential_example.png" width="400" align="middle" style="display:block; margin: auto">
 
-$$V_p=\int_{r}^{\infty}\frac{\vec{F}_e}{q}\vec{dr}=\int_{r}^{\infty}\vec{E}\,\vec{dr}=\frac{Q}{4\pi \epsilon_0 r},$$
+$$V_p=\int_{r}^{\infty}\frac{\vec{F}_e}{q}\cdot\vec{dr}=\int_{r}^{\infty}\vec{E}\cdot\vec{dr}=\frac{Q}{4\pi \epsilon_0 r},$$
 
 which is, of course, only true outside of the sphere, $r>R$. If we substitute the $r=R=0.3$ (we're on the surface of the sphere) and $Q=+10 \mu C$, we get $V_p=3.10^5V$. The work I have to do to bring the charge $q$ in my pocket to the Van de Graaff would be
 
@@ -123,12 +125,14 @@ Now, let's do the same around a $+4$ and $-1$ charge. The green lines show that 
 
 <img src="4-Electrostatic_Potential/equipotential_example2.png" width="400" align="middle" style="display:block; margin: auto">
 
-But we have some blue lines too there. What is going on? Well, we have a negative charge, which sucks our test charge in without us having to do any work, therefore, we have a negative equipotential surface around it! Also, there is a red sphere above it (I keep using the word sphere because these are 2D slices of the 3D world), therefore, somewhere between the blue and the red spheres, there has to be a surface of zero potential too! Note that this absolutely does not mean that the electric field would be zero there. The potential part means that when we come from $\infty$ with a test charge in our pocket, we'll do some amount of positive work, then some negative work, and the sum of the two will be zero at some points.
+But we have some blue lines there too. What is going on? Well, we have a negative charge, which sucks our test charge in without us having to do any work, therefore, we have a negative equipotential surface around it! Also, there is a red sphere above it (I keep using the word sphere because these are 2D slices of the 3D world), therefore, somewhere between the blue and the red spheres, there has to be a surface of zero potential too! Note that this absolutely does not mean that the electric field would be zero there. The potential part means that when we come from $\infty$ with a test charge in our pocket, we'll do some amount of positive work, then some negative work, and the sum of the two will be zero at some points.
 
 There is, also a point in space highlighted with $E=0$ where the magnitude of the electric field is zero, but of course, it is between two red spheres, so the potential is positive there - we can't get there "for free", if by free we mean segments of positive and negative work summed up to zero.
 
 <sup>**Note:** Equipotential surfaces never intersect each other. This would be a violation of energy conservation.</sup>
 <sup>**Note:** Do not confuse the electrostatic potential energy $U$ with the electric potential $V$. The first is measured in $J$, the second is $J/C$.</sup>
+
+## Movement between potentials
 
 So why do we need all this equipotential stuff? We can compute all this if we know $\vec{E}$ well enough everywhere. Yes, however, there are cases where $\vec{E}$ is prohibitively complicated, and working with equipotential surfaces can get much easier than that.
 
@@ -146,6 +150,8 @@ And thus, when we compute the difference in their potential, we cancel out the "
 $$V_A-V_B=\int_{A}^{B}\vec{E} \cdot \vec{dr}, \\
 V_B-V_A=-\int_{A}^{B}\vec{E} \cdot \vec{dr}.$$
 
+The one below is not a shallow mathematical exercise in changing signs, but the way you will probably encounter potential differences in other literature.
+
 <img src="4-Electrostatic_Potential/potential_difference2.png" width="400" align="middle" style="display:block; margin: auto">
 
 Note that to get the notation that is traditionally used everywhere, we have to introduce $\vec{dl}$. While $\vec{dr}$ was our vector pointing from $A$ to $B$, $\vec{dl}$ will be an infinitely small distance (with direction) along an arbitrary path between $A$ and $B$. Writing the same equations with $\vec{dl}$ is the same only because electric fields are conservative fields, which does not mean that they vote for populists, but that the work being done is independent from the trajectory between the two points. In the interest of brevity, I will not rewrite the previous equations here again, but do not get confused if we use $\vec{dl}$ as the integration variable later.
@@ -159,4 +165,16 @@ If he wishes to go to $A$, he has to do a lot more work than he did walking towa
 
 $$q(V_A-V_B)=K_B-K_A$$
 
-The right side shows the kinetic energies in these points and the equality comes from the Work-Energy Theorem, i.e., the work done by the net force on the particle (left side) equals the change in the particle's kinetic energy. In other words, the difference in potentials will lead to the same difference in kinetic energy. This is a nice and clear relation that explains what the electric potential means in terms of movement.
+The right side shows the kinetic energies before and after the application of force (kinetic energies at point $B$ and $A$) and the equality comes from the Work-Energy Theorem, i.e., the work done by the net force on the particle (left side) equals the change in the particle's kinetic energy. In other words, the difference in potentials will lead to the same difference in kinetic energy. Finally, we can connect these potentials to our known world: they have a nice and clear way of describing movement in an electric field. It also connects back to Newtonian physics. Slam dunk.
+
+**Metals are equipotential surfaces**, as long as there is no charge moving inside them. When induction happens, the charges move automatically until there is no force on them anymore (they try to "kill" the electric field).
+
+I hope you've grown to like this point $A$ and $B$ because we will have a third figure about them. After that, we will trash them. In fact, let's attach them to metal trashcans.
+
+<img src="4-Electrostatic_Potential/trashcans.png" width="400" align="middle" style="display:block; margin: auto">
+
+How would the particles travel between these? If we would put an electron into point $B$, it will want to travel towards $A$, because a negative charge goes from lower to higher potential, a proton would move the other way around. Because of the complex shapes of the trashcans, the electric would be very hard to compute, but if we only want to know the speed or kinetic energy of this movement, it becomes a simple substitution of the charge times potential difference. Let's do it. It will be
+
+$$1.6 \cdot 10^{-19} \cdot 100=\frac{1}{2} m_e v_A^2$$
+
+where $m_e$ is the mass of the electron and $v_A$ is the speed at point $A$. We can do all this without any knowledge of the electric field. So simple!
