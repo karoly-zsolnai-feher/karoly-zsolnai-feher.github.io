@@ -169,7 +169,9 @@ The right side shows the kinetic energies before and after the application of fo
 
 **Metals are equipotential surfaces**, as long as there is no charge moving inside them. When induction happens, the charges move automatically until there is no force on them anymore (they try to "kill" the electric field).
 
-I hope you've grown to like this point $A$ and $B$ because we will have a third figure about them. After that, we will trash them. In fact, let's attach them to metal trashcans.
+## Charged trashcans
+
+I hope you've grown to like this point $A$ and $B$ because we will have a third figure about them. After that, the will go into the trash. You know what? In fact, let's attach them to metal trashcans right now.
 
 <img src="4-Electrostatic_Potential/trashcans.png" width="400" align="middle" style="display:block; margin: auto">
 
@@ -178,3 +180,23 @@ How would the particles travel between these? If we would put an electron into p
 $$1.6 \cdot 10^{-19} \cdot 100=\frac{1}{2} m_e v_A^2$$
 
 where $m_e$ is the mass of the electron and $v_A$ is the speed at point $A$. We can do all this without any knowledge of the electric field. So simple!
+
+Note that we compute potentials as if we were coming from infinity, and the $1/r^2$ term is $0$ in infinity. Also, note that only the *difference* in the potentials matter, the magnitude of the potentials does not. This means that $50V$ against $150V$ in terms of kinetic energy is equivalent to $0V$ vs $100V$ or $50V$ against $-50V$. In engineering applications, the potential of the Earth is typically set at $0V$.
+
+## Creating light
+
+Now, let's create light with an experiment! If we hold this glass tube (with gas inside) next to the Van de Graaff generator in a way that maximizes the potential difference, which is, in a radially outwards direction, induction happens, and electrons start moving through the gas, creating light. Now we have something derived from theory that already has some really useful engineering applications. Great!
+
+Before turning the room lights off:
+<img src="4-Electrostatic_Potential/creating_light.png" width="500" align="middle" style="display:block; margin: auto">
+
+After:
+<img src="4-Electrostatic_Potential/creating_light2.png" width="500" align="middle" style="display:block; margin: auto">
+
+If we would hold this in a tangential direction, because we haven't studies physics, we get, of course, nothing. As we start turning from the tangential direction to radially outwards, it slowly lights up. And we know exactly why! We now see that the potential difference created by an electric field can make lights work. What a beautiful experiment.
+
+Of course, Walter Lewin adds one more twist to this by touching the further end of the tube. What happens here is that because the excess charge travels through his body into the Earth, the tube lights up even more.
+
+<img src="4-Electrostatic_Potential/creating_light3.png" width="500" align="middle" style="display:block; margin: auto">
+
+However, every touch hurts like mad, but a proper teacher goes the extra mile to make you understand electric potentials. If you are at MIT, you get your tuition fee's worth with this one for sure. There is another experiment at the end of [this lecture](https://www.youtube.com/watch?v=QpVxj3XrLgk&list=PLyQSN7X0ro2314mKyUiOILaOC2hk6Pc3j&index=5), but it only makes sense in motion, so make sure to have a look.
