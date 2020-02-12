@@ -199,4 +199,4 @@ Of course, Walter Lewin adds one more twist to this by touching the further end 
 
 <img src="4-Electrostatic_Potential/creating_light3.png" width="500" align="middle" style="display:block; margin: auto">
 
-However, every touch hurts like mad, but a proper teacher goes the extra mile to make you understand electric potentials. If you are at MIT, you get your tuition fee's worth with this one for sure. There is another experiment at the end of [this lecture](https://www.youtube.com/watch?v=QpVxj3XrLgk&list=PLyQSN7X0ro2314mKyUiOILaOC2hk6Pc3j&index=5), but it only makes sense in motion, so make sure to have a look.
+However, every touch hurts like mad, but a proper teacher goes the extra mile to make you understand electric potentials. Darth Maul would be proud of this. Embrace the power of the dark side, young Padawan. Also, if you are at MIT, you get your tuition fee's worth with this one for sure. There is another experiment at the end of [this lecture](https://www.youtube.com/watch?v=QpVxj3XrLgk&list=PLyQSN7X0ro2314mKyUiOILaOC2hk6Pc3j&index=5), but it only makes sense in motion, so make sure to have a look.
