@@ -3,6 +3,8 @@
 ## So, what's up with $E= - \nabla V$?
 <img src="5-E=-gradV_Conductors_Electrostatic_Shielding/closed_line.png" width="300" align="middle" style="display:block; margin: auto">
 
+We don't yet know about the nabla operator ($\nabla$) in the title, but whatever it is, it seems to be a very elegant way of creating a connection between electric fields and potentials. We'll talk about it and define it as soon as we can, but let's lay down some groundwork to be able to do that.
+ 
 If we take a closed line $L$ in a static electric field with no charges moving around,
 
 $$\oint_L \vec{E}\cdot\vec{dl}=0$$
@@ -60,6 +62,29 @@ We are now very close to settling this!
 
 If we have an electric field, where we go a unit distance in the direction of $x$ and measure a difference in potential (while keeping $y$ and $z$ constant, hence the notation on the right), we get
 
-$$E_x=\frac{dV}{dx}\rvert_{yz=c}$$
+$$\lvert E_x \rvert =\Big\lvert \frac{dV}{dx}\Big\rvert\Big\rvert_{yz=c}, \,\,\,\, 
+\lvert E_y \rvert =\Big\lvert \frac{dV}{dy}\Big\rvert\Big\rvert_{xz=c}, \,\,\,\,
+\lvert E_z \rvert =\Big\lvert \frac{dV}{dz}\Big\rvert\Big\rvert_{xy=c}.$$
 
-Thus, the unit of $E$ is $[V/m]$, which is the same as we wrote before. However, this is a little more intuitive - if you move away a meter of distance, this is the amount of difference in potential you will experience. This is potential change over a distance.
+I have added the $y$ and $z$ variants to make it nice and symmetric. No, I don't have OCD, my mother had me tested.
+Thus, the unit of $E$ is $[V/m]$, which is the same as we wrote before (i.e., $V/m=N/C$). However, this is a little more intuitive - if you move away a meter of distance, this is the amount of difference in potential you will experience. This is potential change over a distance.
+
+Now, this is probably the 100th time you are seeing this at work (I hope), but I will note that taking these wacky derivatives for a higher-dimensional function where we keep all but one dimension constant are called partial derivatives and are usually denoted as $\partial a/\partial b$.
+
+So, finally, we are ready to the grand unveiling of the nabla operator to represent the gradient,
+
+$$\vec{E}=-\Big(\underbrace{\frac{\partial V}{\partial x}}_{E_x}\hat{x} + 
+\underbrace{\frac{\partial V}{\partial y}}_{E_y}\hat{y} + 
+\underbrace{\frac{\partial V}{\partial z}}_{E_z}\hat{z}\Big)=- \text{grad}V=-\nabla V.$$
+
+Note that this is $(E_x+E_y+E_z)$ in the parenthesis, with the bonus unit direction vectors added in, free of charge. Whew! Example time.
+
+## Gradient example time
+
+Consider a potential field that is given as
+$$V=10^5x$$
+and it holds for the space of one centimeter, i.e., $x=0$ to $10^{-2}$ m. This potential changes linearly with the distance, and in only one direction. Therefore,
+
+$$\vec{E}=-10^5\hat{x}, \,\, \text{while} \,\, E_y=0, \,\,E_z=0.$$
+
+Note that someone stole $x$ and gave us $\hat{x}$ instead. What happened, of course is that $x$ disappeared because of the derivative, i.e., $\frac{d}{dx}(x)=\frac{dx}{dx}=1$, and we got $\hat{x}$ from the definition of the gradient.
