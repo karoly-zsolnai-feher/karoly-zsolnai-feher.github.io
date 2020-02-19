@@ -87,4 +87,23 @@ and it holds for the space of one centimeter, i.e., $x=0$ to $10^{-2}$ m. This p
 
 $$\vec{E}=-10^5\hat{x}, \,\, \text{while} \,\, E_y=0, \,\,E_z=0.$$
 
-Note that someone stole $x$ and gave us $\hat{x}$ instead. What happened, of course is that $x$ disappeared because of the derivative, i.e., $\frac{d}{dx}(x)=\frac{dx}{dx}=1$, and we got $\hat{x}$ from the definition of the gradient.
+Hey! Someone stole our $x$ and gave us $\hat{x}$ instead. Or… maybe not, who knows. What happened, of course is that $x$ disappeared because of the derivative, i.e., $\frac{d}{dx}(x)=\frac{dx}{dx}=1$, and all we got back was <del>*this T-shirt*</del> $\hat{x}$ from the definition of the gradient.
+
+This $\vec{E}$ does not depend on the distance. Do you remember where else we had a case where the magnitude of the electric field was a constant? Yup, the two charged plates.
+
+<img src="5-E=-gradV_Conductors_Electrostatic_Shielding/charged_plates_again.png" width="450" align="middle" style="display:block; margin: auto">
+
+So what are the potentials here? Let's use the definition, with the difference that the infinitesimally small displacement here is not $\vec{dl}$ but $\vec{dx}$. Also note that we know $\vec{E}$ from above, so we can make a proper substitution here, and integrating a polynomial along a straight line can't be that hard, can it?
+
+$$V_A-V_B=\int_A^B \vec{E}\cdot\vec{dx}=-10^5\int_A^B\hat{x}\cdot\vec{dx}=-10^5\int_A^B\vec{dx} \\
+-10^5(x_B-x_A)=-1000V$$
+
+Two interesting things. The scalar part of $\vec{E}$ we were more than happy to move before the integration as it **does not** depend on $x$, however, $\hat{x}$ **does**, so not so fast my friend, it stays in there! Second, we have also leaned on the fact that $\hat{x}$ and $\vec{dx}$ faces the same direction, therefore we can forget about the scalar product (it is always $1$). Third, we discussed that $x_B-x_A)$ is $10^{-2}m$, which leads to the final result, which is, that $A$ is a $1000$ volts lower than $B$. Also 
+
+<sup>**Note**: the plane $B$ is on is an equipotential surface, and so would be any other plane parallel to $B$ as we inch towards $A$.</sup>
+
+<sup>**Note 2:**I f we would arbitrarily choose the potential of $A$ to be the zero potential, then the potential of $B$ would be $+1000V$.</sup>
+
+<sup>**Note 3:** I can't seem to stop with these notes. Please send help.</sup>
+
+I have great news for you. We are done, since we know both $V=10^5x$ and $\vec{E}=-10^5\hat{x}$. Hooray!
