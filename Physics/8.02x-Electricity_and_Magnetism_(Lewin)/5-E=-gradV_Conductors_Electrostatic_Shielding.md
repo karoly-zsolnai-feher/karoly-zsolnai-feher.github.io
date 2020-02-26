@@ -107,3 +107,25 @@ Two interesting things. The scalar part of $\vec{E}$ we were more than happy to 
 <sup>**Note 3:** I can't seem to stop with these notes. Please send help.</sup>
 
 I have great news for you. We are done, since we know both $V=10^5x$ and $\vec{E}=-10^5\hat{x}$. Hooray!
+
+## Charges "within" conductors
+
+Conductors have free electrons. Hence, the field inside of them is zero because the electrons see the electric field, they start to move around until they no longer experience any more force. Thus, they "kill" the electric field.
+
+Let's take a heavy metal example…with a steel heart. Perhaps the heart of your physics professor, who knows. So this is a conductor, and it gets some charge from the outside (in the example, this is the big + in the upper right). What happens to this charge? Is it a possibility that this charge would be somehow distributed *inside* the object?
+
+<img src="5-E=-gradV_Conductors_Electrostatic_Shielding/steel_heart.png" width="450" align="middle" style="display:block; margin: auto">
+
+Let's take circular Gaussian surface within the heart, as showcased above with red. We know that within this surface, the electric field is zero, therefore the answer is that no, we won't see any charges in there. Gauss's law reigns supreme again.
+
+A quick refresher on how that happens. We remember that $\vec{E}$ will either be radially inwards or outwards depending on the sign of the one charge that we have. Then,  $\vec{E}$ and $\vec{dA}$ are parallel everywhere on the sphere’s surface, therefore $\vec{E}\cdot\vec{dA}$ reduces to $E\,dA \cos\theta$ where $\theta=0$.
+
+Therefore, the charges have to be located on the surface of this heart. If it would be a sphere, this charge would be uniformly distributed, but not for a heart. Now, let's make this a little more interesting. What could be more interesting than this? Well, of course, a ***hollow*** steel heart!
+
+<img src="5-E=-gradV_Conductors_Electrostatic_Shielding/steel_heart2.png" width="450" align="middle" style="display:block; margin: auto">
+
+Now, clearly, in the middle, solid regions, we don't expect any charges (the two + signs in the image are just hypothetical), this still follows from Gauss's law. How about the hollow inside part, or the outside part? Let's pull out our magic weapon, which is, again, none other than Gauss's law. But this time, the Gaussian surface would be heart-shaped, and in the solid part, as seen with red below.
+
+<img src="5-E=-gradV_Conductors_Electrostatic_Shielding/steel_heart3.png" width="450" align="middle" style="display:block; margin: auto">
+
+The electric field will be zero within the conductor, and hence, also zero in this hollow region as well. Since this red zone is an equipotential zone, the electric fields will be, again, perpendicular to the surface of it.

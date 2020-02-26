@@ -70,7 +70,7 @@ We can lean on the fact that $\vec{E}$ and $\vec{dA}$ are parallel everywhere on
 
 $$E\,4\pi r^2=\frac{Q_{\text{ins}}}{\epsilon_0},$$
 
-And since there are no charges inside the Gaussian surface, $Q_{\text{ins}}$ is $0$, the right side is $0$, therefore $E$ must also be 0. This is the case, provided that $r < R$. 
+and since there are no charges inside the Gaussian surface, $Q_{\text{ins}}$ is $0$, the right side is $0$, therefore $E$ must also be 0. This is the case, provided that $r < R$. 
 
     To reiterate, the magnitude of the electric field inside a conducting sphere is zero.
 
