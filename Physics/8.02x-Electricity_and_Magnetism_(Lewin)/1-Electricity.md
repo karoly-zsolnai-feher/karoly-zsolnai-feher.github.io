@@ -1,7 +1,9 @@
 # Electricity basics
 
+This is going to be a glorious journey, where you will get to know about elecricity and magnetism. But what is ***even better***, you'll get to know about Time Machine guy, The Magic Switcheroo, Darth Maul's lightsaber, charged trashcans, and more.
+
 ## What is it needed for?
-Electricity is needed for lights. Clocks, microphones, radio, computers. Light is an electromagnetic wave. The colors of the blue sky are there because of electricity. Cars, planes. Horses need electricity to move, muscle contractions require it.
+Electricity is everywhere. It is needed for lights, clocks, microphones, radio, computers. Light is an electromagnetic wave. The colors of the blue sky are there because of electricity. Cars, planes. Horses need electricity to move, muscle contractions require it.
 
 Your nerve system works through electricity. Atoms, molecules, all chemical reactions exist because of electricity. You could not see without electricity, your heart would not beat without electricity, you could not even think without electricity.
 
@@ -26,7 +28,7 @@ If you beat someone up with cat fur, and he sits on a glass stool (non-conductin
 
 <img src="coulomb.png" width="550" style="display:block; margin: auto"> 
 
-Given two electrically charged particles with charges $q_1$, $q_2$ that are $r$ distance apart, and $\hat{r}_{1,2}$, a unit vector pointing from $q_1$ to $q_2$, the force on point 2 due to 1 acting between them is 
+Given two electrically charged particles with charges $q_1$, $q_2$ that are $r$ distance apart, and $\hat{r}_{1,2}$, a unit vector pointing from $q_1$ to $q_2$, the force on point 2 due to 1 is
 
 $$\vec{F}_{1,2} = k\frac{q_1 q_2}{r^2}\hat{r}_{1,2}.$$
 

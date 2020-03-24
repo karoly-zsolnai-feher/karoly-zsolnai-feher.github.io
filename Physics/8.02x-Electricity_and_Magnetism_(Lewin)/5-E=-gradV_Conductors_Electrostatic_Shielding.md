@@ -44,7 +44,7 @@ Let's not just stare at this, but try to build a small piece of intuition, which
 <sup>**Note:** Of course, if we are only interested in the magnitude, but not the direction of the electric field, the non-vector version of this can also be written as $E=-dV/dr$.</sup>
 
 ## Equipotential surfaces - why perpendicular to $\vec{E}$?
-If I have a charge in my pocket, and I move only in a way that is perpendicular to the field lines. This way, the force that acts upon me and the direction I go are always in $90^\circ$ away. Of course, thus, their dot product is zero. 
+Imagine that I have a charge in my pocket, and I move only in a way that is perpendicular to the field lines. This way, the force that acts upon me and the direction I go are always in $90^\circ$ away. Of course, thus, their dot product is zero. 
 
 As you remember, the potential is work per unit charge, therefore I can use the potential as a proxy for work when I only have this unit charge. This will be given as
 $$V_p=\int_{r}^{\infty}\vec{E}\cdot\vec{dl},$$
@@ -128,4 +128,4 @@ Now, clearly, in the middle, solid regions, we don't expect any charges (the two
 
 <img src="5-E=-gradV_Conductors_Electrostatic_Shielding/steel_heart3.png" width="450" align="middle" style="display:block; margin: auto">
 
-The electric field will be zero within the conductor, and hence, also zero in this hollow region as well. Since this red zone is an equipotential zone, the electric fields will be, again, perpendicular to the surface of it.
+The electric field will be zero within the conductor, and hence, also zero in this hollow region as well. Since this red zone is an equipotential zone, the electric fields will be, again, perpendicular to the surface of it. So **any** conductor in any shape will give us an electric field of zero inside.

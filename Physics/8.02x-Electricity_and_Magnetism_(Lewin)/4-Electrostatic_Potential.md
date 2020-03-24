@@ -90,7 +90,7 @@ This is the work I have to do to bring the charge $+q$ to point $p$. The **elect
 
 $$V_p = \frac{Q}{4\pi \epsilon_0 R},$$
 
-which is also a scalar and has a unit of $J/C$, or $V$, in short (yes, this is Volt). This makes sense, as the further away $p$ is, the bigger $R$ is, the less work we have to do. Of course, the higher $Q$ is, the more work we have to do. Both are nice and linear, hooray! 
+which is also a scalar and has a unit of $J/C$, or $V$, in short (yes, this is Volt). This makes sense, as the further away $p$ is, the bigger $R$ is, the less work we have to do. Of course, the higher $Q$ is, the more work we have to do. Both are nice and linear, hooray!
 
 <sup>**Note:** that this potential can be negative, of course, when we have a negative $Q$.</sup>
 
