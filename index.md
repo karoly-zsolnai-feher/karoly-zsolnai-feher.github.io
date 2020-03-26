@@ -2,7 +2,7 @@ This repository contains some of my mathematical notes. Normally, I would keep t
 
 ## **Physics** ⚛️ 
 **MIT [8.02x](https://www.youtube.com/watch?v=rtlJoXxlSFE&list=PLyQSN7X0ro2314mKyUiOILaOC2hk6Pc3j&index=1) - Physics II: Electricity & Magnetism ⚡️🧲**  
-*(lecture notes - all images are taken from the linked videos)*
+*(lecture notes - I did the writing, but note that all images are taken from the linked videos, which are likely a property of Walter Lewin/MIT)*
 
 * [Lecture 1 - Electricity](Physics/8.02x-Electricity_and_Magnetism_(Lewin)/1-Electricity)  
 * [Lecture 2 - Electric Field Lines](Physics/8.02x-Electricity_and_Magnetism_(Lewin)/2-Electric_Field_Lines)  

@@ -1,6 +1,8 @@
 # Electricity basics
 
-This is going to be a glorious journey, where you will get to know about elecricity and magnetism. But what is ***even better***, you'll get to know about Time Machine guy, The Magic Switcheroo, Darth Maul's lightsaber, charged trashcans, and more.
+This is going to be a glorious journey, where you will get to know about elecricity and magnetism. But what is ***even better***, you'll get to know about Time Machine Guy, The Magic Switcheroo, Darth Maul's lightsaber, charged trashcans, and more.
+
+I recommend that you check out the **cheat sheet** from the index page and read it up to the current lecture you are at - do it after every lecture, and when things get a little more complex, you'll be more than thankful for having rock solid foundations. Unless you are Time Machine Guy, then do not do it at all, but more on that later.
 
 ## What is it needed for?
 Electricity is everywhere. It is needed for lights, clocks, microphones, radio, computers. Light is an electromagnetic wave. The colors of the blue sky are there because of electricity. Cars, planes. Horses need electricity to move, muscle contractions require it.
@@ -13,10 +15,12 @@ There is only a small fraction of electrons that are not bound to atoms. The ele
 ### Induction
 Polarization happens, i.e., the charges move apart in different directions. This happens if you close in on an object that is a + to a different object, and the - (minus) charges are running towards it, while the + charges run away. This is induction. Note: glass is not a conductor.
 
-<img src="induction.png" width="350" align="middle" style="display:block; margin: auto"> 
+<img src="1-Electricity/induction.png" width="350" align="middle" style="display:block; margin: auto"> 
 
 ### Induction via rubbing
 When rubbing a rubber balloon against our shirt, friction cases electricity, so it may stick to our hand afterward. Since rubber is not a conductor, and neither is our hand, induction happens and they will stick together. Small balloons are easier. 
+
+<img src="1-Electricity/balloon.png" width="300" align="middle" style="display:block; margin: auto"> 
 
 You may hear a cracking noise when combing your hair in a dry weather because the comb gets charged.
 
@@ -26,7 +30,7 @@ If you beat someone up with cat fur, and he sits on a glass stool (non-conductin
 
 # Coulomb's law
 
-<img src="coulomb.png" width="550" style="display:block; margin: auto"> 
+<img src="1-Electricity/coulomb.png" width="550" style="display:block; margin: auto"> 
 
 Given two electrically charged particles with charges $q_1$, $q_2$ that are $r$ distance apart, and $\hat{r}_{1,2}$, a unit vector pointing from $q_1$ to $q_2$, the force on point 2 due to 1 is
 
@@ -41,4 +45,4 @@ Electric forces are *much more* powerful than gravitational forces. Calculating 
 ## Electroscope
 It is an instrument that typically contains an aluminum foil and is therefore a conductor, i.e., if you touch it with a charged object, it gets positively charged. As this happens, these aluminum tinsels (tails) will all be positive, and “open up” as they start repelling each other. Humans are not good conductors, but you can also become a living electroscope by touching something positively charged, and having an electroscope in the other hand - it will open up. Your hair is also an electroscope and will stand up.
 
-<img src="electroscope.png" width="450" style="display:block; margin: auto"> 
+<img src="1-Electricity/electroscope.png" width="450" style="display:block; margin: auto"> 

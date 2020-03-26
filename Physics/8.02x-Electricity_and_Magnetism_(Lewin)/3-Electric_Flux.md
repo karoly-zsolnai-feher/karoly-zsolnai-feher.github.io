@@ -2,7 +2,7 @@
 
 An open surface, e.g., a sheet of paper or a tissue is placed in an electric field. This surface is carved up into small pieces of size $dA$, each of which has a normal $\hat{n}$.
 
-<img src="electric_flux_def.png" width="400" align="middle" style="display:block; margin: auto"> 
+<img src="3-Electric_Flux/electric_flux_def.png" width="400" align="middle" style="display:block; margin: auto"> 
 
 The electric flux that goes through this surface is given as
 
@@ -16,11 +16,11 @@ This is a scalar. Note that $\vec{dA}$ is perpendicular to the element $dA$ as t
 
 One can think of it as air flowing through a surface defined through its normal. If it lines up with the surface, $\cos0^\circ=1$, if it is perpendicular, nothing goes through, i.e., $\cos90^\circ=0$, and every case is possible in between.
 
-<img src="airflow.png" width="500" align="middle" style="display:block; margin: auto"> 
+<img src="3-Electric_Flux/airflow.png" width="500" align="middle" style="display:block; margin: auto"> 
 
 Let’s perform the flux computation on a closed surface.
 
-<img src="closed_surface.png" width="300" align="middle" style="display:block; margin: auto"> 
+<img src="3-Electric_Flux/closed_surface.png" width="300" align="middle" style="display:block; margin: auto"> 
 
 The total flux going through this closed surface $S$ (will be referred to as the “bag”) is
 
@@ -32,7 +32,7 @@ This is a summation over a collection of dot products, therefore the output is a
 
 Let’s take a charge $+Q$ and calculate the flux going through a sphere of radius $R$ around it, where $\hat{r}$ points from the midpoint towards $\vec{dA}$.
 
-<img src="sphere_flux.png" width="400" align="middle" style="display:block; margin: auto"> 
+<img src="3-Electric_Flux/sphere_flux.png" width="400" align="middle" style="display:block; margin: auto"> 
 
 Noting that $\vec{dA}$ and $\vec{E}$ are parallel, i.e., their dot product is 1, and the surface of the sphere is $4\pi R^2$, we get
 
@@ -62,7 +62,7 @@ Given a hollow, thin shell of a sphere of radius $R$ with $Q$ charge uniformly d
 
 Now to choose a Gauss surface that helps us solve this problem. Let’s choose a sphere of radius $r$.
 
-<img src="gauss_law_application.png" width="400" align="middle" style="display:block; margin: auto"> 
+<img src="3-Electric_Flux/gauss_law_application.png" width="400" align="middle" style="display:block; margin: auto"> 
 
 We know that $\vec{E}$ will either be radially inwards or outwards depending on the sign of $Q$. 
 
@@ -80,7 +80,7 @@ $$E\, 4\pi r^2=\frac{Q}{\epsilon_0}, \\
 E= \frac{Q}{4\pi r^2 \epsilon_0}.$$
 
 If we plot the results, we get the following:
-<img src="sphere_field_plot.png" width="400" align="middle" style="display:block; margin: auto"> 
+<img src="3-Electric_Flux/sphere_field_plot.png" width="400" align="middle" style="display:block; margin: auto"> 
 
 Note that not only electric, but gravitational forces also fall off proportionally to $1/r^2$, therefore if you would take a hollow, spherical planet with uniform weight distribution, there would be no gravitational field inside. This took Newton 20 years to find out, now you can do it in 30 seconds with Gauss's Law.
 
@@ -90,7 +90,7 @@ This was the first form of symmetry. Now to discuss planar symmetry.
 
 Think of an infinitely large plane with the same amount of charge everyewhere, $\sigma=Q/A$, with the unit $[C/m^2]$. The question is, what is the electric field ${E}$ anywhere in space? If we pick the Gauss surface correctly, the answer will come immediately, but if we pick a sphere or something lousy, we'll get nowhere. Let's choose a cylindrical surface with a flat plane top and bottom that are parallel to our surface a distance of $d$ above and below the plane.
 
-<img src="planar_symmetry.png" width="450" align="middle" style="display:block; margin: auto"> 
+<img src="3-Electric_Flux/planar_symmetry.png" width="450" align="middle" style="display:block; margin: auto"> 
 
 Interestingly, the electric field of the plane is perpendicular to the surface, therefore because of the scalar product, only the two ends of the Gaussian surface contribute to the electric flux,
 
@@ -100,33 +100,33 @@ $$2EA =\frac{\sigma A}{\epsilon_0} \implies E = \frac{\sigma}{2 \epsilon_0}.$$
 
 Note that due to the scalar product cancellation, the distance $d$ does not appear anywhere in here, thus, this is independent of the distance. It is constant as well - we could go miles away from this, and it still has the same electric field. No $1/r^2$ decay in sight!However, to curb our enthusiasm, this is about an *infinitely* extending plane, which, of course, does not exist. Therefore, this would not hold for a small, finite plane, where it would fall of proportionally to $1/r^2$. Since we've only given the magnitude of the electric field, the directions depend on whether it's positively or negatively charged.
 
-<img src="plane_electric_field_directions.png" width="300" align="middle" style="display:block; margin: auto">
+<img src="3-Electric_Flux/plane_electric_field_directions.png" width="300" align="middle" style="display:block; margin: auto">
 
 Now let's play with a couple of charged plates of opposite polarities.
 
 ## Electric field around charged plates
 
 Suppose we have the setup below.
-<img src="charged_plates.png" width="500" align="middle" style="display:block; margin: auto">
+<img src="3-Electric_Flux/charged_plates.png" width="500" align="middle" style="display:block; margin: auto">
 
 What would be the electric field above, between, and below them? We can start reusing the previous result, write up the electric fields around the plates one by one, and lean on the fact that we've found the $E$ is independent of the distance. Then, we can use the superposition principle and find that above them, the directions are opposing and cancel each other out. Between the plates, the electric flux is magnified (summed), while below, due to symmetry, we have another cancellation, as seen below.
 
-<img src="charged_plates2.png" width="500" align="middle" style="display:block; margin: auto">
+<img src="3-Electric_Flux/charged_plates2.png" width="500" align="middle" style="display:block; margin: auto">
 
 The field lines would point from the positively charged plate to the negatively charged one. This is a very potent eletric field between the two plates, as shown with the density of the field lines in the drawing below for the finite case.
 
-<img src="charged_plates_field_lines.png" width="500" align="middle" style="display:block; margin: auto">
+<img src="3-Electric_Flux/charged_plates_field_lines.png" width="500" align="middle" style="display:block; margin: auto">
 
 You can see that this must be the finite case because the electric field above and below the two plates is not zero. This was supposedly drawn by Maxwell. I was unable to find the original publication, but if you have time to look through [this](http://strangebeautiful.com/other-texts/maxwell-scientificpapers-vol-i-dover.pdf) and [this](https://archive.org/details/scientificpapers01maxw/page/172/mode/2up) tome and managed to find it, let me know.
 
 Experiment time! Since the electric field around a big charged plate is nearly constant (and if we are close by, even a few square meters big plane approximates infinity well), there will be a constant force pushing outwards and the charged balloon is barely going to move.
 
-<img src="plane_electric_field_experiment.png" width="500" align="middle" style="display:block; margin: auto">
+<img src="3-Electric_Flux/plane_electric_field_experiment.png" width="500" align="middle" style="display:block; margin: auto">
 
 We can also test the electric field inside and outside of the conducting sphere. This particular one has a hole for practical purposes, i.e., we want to place our conductors inside. If we charge the big sphere, induction will take place if the ping-pong balls are outside - to be precise, a dipole will form and they get separated. When inside, unless we touch the rim, there is no electric field, so the ping-pong balls don't get charged. No movement. To be sure, of course, we can measure this with an electroscope. There will be a tiny bit of charge, because of the hole, we only have an approximation of a perfect sphere model.
 
-<img src="sphere_electric_field_experiment.png" width="450" align="middle" style="display:block; margin: auto">
+<img src="3-Electric_Flux/sphere_electric_field_experiment.png" width="450" align="middle" style="display:block; margin: auto">
 
 Finally, when we put the conductor ball in a strong electric field, for instance, between two charged plates, it will start to move. Each time it hits a plate, it changes polarity, and it therefore will ping-pong between them rapidly (nomen est omen). Much faster as if we did the same on the outside of the plates, where the electric field is weaker.
 
-<img src="plates_electric_field_experiment.png" width="400" align="middle" style="display:block; margin: auto">
+<img src="3-Electric_Flux/plates_electric_field_experiment.png" width="400" align="middle" style="display:block; margin: auto">
