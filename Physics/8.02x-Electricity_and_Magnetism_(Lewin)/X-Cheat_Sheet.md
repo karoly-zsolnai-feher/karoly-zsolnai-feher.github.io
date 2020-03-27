@@ -54,3 +54,6 @@ $$q(V_A-V_B)=K_B-K_A.$$
 They are always perpendicular to $\vec{E}$, i.e.,
 
 $$E= - \nabla V.$$
+
+## Interesting tidbits
+Positive charges are hairdryers, negative charges are vacuum cleaners.

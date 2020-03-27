@@ -1,6 +1,6 @@
 # Electric Fields, Field Lines
 
-If we have a point $p$ with the test charge $q$ somewhere in space, the electric field is the amount of force this test charge experiences, divided by the charge (eliminate the test charge),
+So, if electric charges induce electric fields, how do we really formulate this phenomenon? If we have a point $p$ with the test charge $q$ somewhere in space, the electric field is the amount of force this test charge experiences, divided by the charge (eliminate the test charge),
 
 $$\vec{E}_p=\frac{\vec{F}}{q}.$$
 
@@ -17,9 +17,9 @@ The net electric field is thus
 
 $$E_p = E_1 + \ldots + E_i=\sum_i E_i.$$
 
-The fact that superposition works here is by no means trivial, but it is true. Note that $\vec{F}_p=q\vec{E}$ is also true, therefore if I have a charge, put it somewhere in space, and measure the forces that act upon it, I will be able to reconstruct the electric field. Or, if I have my particle and have the electric field, will be able to know what forces are acting upon it.
+The fact that superposition works here is by no means trivial, but it is true. Note that $\vec{F}_p=q\vec{E}$ is also true, therefore if I have a charge, put it somewhere in space, and measure the forces that act upon it, I will be able to reconstruct the electric field. Or, if I have my particle and have the electric field, I will be able to know what forces are acting upon it. These quantities are closely related!
 
-If we have a positively and a negatively charged particle, the point near the negative charge will be “sucked in” by it, while as we go further away, we will escape the -1 and get pushed away by the +3. If you are very far away, the -1 and the +3 will be exactly as good as a net +2 charge, i.e., will still point away to the right.
+If we have a positively and a negatively charged particle, the point near the negative charge will be “sucked in” by it, while as we go further away, we will escape the -1 and get pushed away by the +3. If we are very far away, the -1 and the +3 will be exactly as good as a net +2 charge, i.e., will still point away to the right. Let's call this the Far Away Net Charge Rule. FAWNCHAR! This is the most terrible abbreviation I have ever seen. It sounds like "phone car". Eh, I'll take it — maybe this will help you remember this for later.
 
 <img src="2-Electric_Field_Lines/electric_field_directions.png" width="500" align="middle" style="display:block; margin: auto"> 
 
@@ -36,7 +36,7 @@ Note that all the field lines come in on the -1, and all of them are repelled by
 
 An intuition for this could be that the +3 is blowing out air, and the -1 is a vacuum cleaner that sucks in the air. The density of the lines can visualize how potent the field is, i.e., the lines can be drawn closer together proportionally to the amount of charges in the field.
 
-Note that in the case of curved field lines, the charges are not obligated to follow them exactly. For instance, in the image below, it may start on the middle line, then get “ejected” towards the line on the top.
+Note that in the case of curved field lines, the charges move tangentially, and are therefore not obligated to follow them exactly. For instance, in the image below, it may start on the middle line, then get “ejected” towards the line on the top.
 
 <img src="2-Electric_Field_Lines/field_lines2.png" width="250" align="middle" style="display:block; margin: auto"> 
 
@@ -45,16 +45,16 @@ A dipole is created when we have two charges with equal magnitude but opposite p
 
 <img src="2-Electric_Field_Lines/dipole.png" width="400" align="middle" style="display:block; margin: auto"> 
 
-As $r \to \infty$, i.e., take a point very far away from the dipole, the two cancel each other out. The dipole is special in a way that in this case, it does not have a square, but a cubic falloff ($1/r^3$).
+As $r \to \infty$, i.e., take a point very far away from the dipole, the two cancel each other out (FAWNCHAR!). The dipole is special in a way that in this case, it does not have a square, but a cubic falloff ($1/r^3$).
 
 As seen below, we can create a dipole through induction. The negatively charged rod creates induction, in which the positive and negative charges run in opposite directions, thus separating the two metal spheres.
 
 <img src="2-Electric_Field_Lines/induced-dipole.png" width="300" align="middle" style="display:block; margin: auto">
 
-If we leave a dipole alone in an electric field, the positive charge will want to go in one direction, while the negative in the opposite direction, and therefore, it will start to rotate. When building a dipole, the two spheres have to be connected with a conductor to foster the free exchange of charges. A metal bar will do.
+If we leave a dipole alone in an electric field, the positive charge will want to go in one direction, while the negative in the opposite direction, and therefore, it will start to rotate. When building a dipole, the two spheres have to be connected with a conductor to foster the free exchange of charges. A metal bar will do. It looks like a dumbbell floating in space — see below.
 
 <img src="2-Electric_Field_Lines/rotate.png" width="350" align="middle" style="display:block; margin: auto"> 
 
-When turning on the **Van de Graaff generator** (the big, conducting lollipop), it generates positive charges. Through induction, the electrons are sucked out of the Earth, and want to travel to the positive charges…through us, therefore we get negatively charged. When putting a balloon (the white dot above) made out of a conductor in this force field, it will travel towards us. When it hits our head, it gets negatively charged, and the force will be tangential to the electric field and point backwards to the generator. This goes on and on and the balloon starts bouncing forward and back.
+When turning on the **Van de Graaff generator** (the big, conducting lollipop), it generates positive charges. Through induction, the electrons are sucked out of the Earth, and want to travel to the positive charges…through us, therefore we get negatively charged. When putting a balloon (the white dot in the upper left) made out of a conductor in this force field, it will travel towards us. When it hits our head, it gets negatively charged, and the force will be tangential to the electric field and point backwards to the generator. This goes on and on and the balloon starts bouncing forward and back.
 
 <img src="2-Electric_Field_Lines/bouncy_experiment.png" width="350" align="middle" style="display:block; margin: auto"> 
